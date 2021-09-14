@@ -61,7 +61,7 @@ try:
 					print("installed!")
 		else:
 			quit()
-except AttributeError as e:
-	print("Did you specify an operation?\nError: " + e)
+except AttributeError or NamespaceError as e:
+	print("Did you specify an operation?\nError: " + str(e))
 except ConnectionError:
 	print("I do not have connection. Please make sure you are connected to the internet")
