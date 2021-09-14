@@ -1,2 +1,6 @@
 GitStrap: An installer for Kai D. Gonzalez's Software
 
+gitstrap -h
+
+gitstrap install <package>
+
